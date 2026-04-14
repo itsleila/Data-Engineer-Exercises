@@ -1,0 +1,11 @@
+id_venda,vendedor,regiao,produto,data_venda,valor
+1,Ana,Sul,A,2024-01-01,100
+2,Ana,Sul,B,2024-01-02,200
+3,Ana,Sul,A,2024-01-03,150
+4,Bruno,Norte,A,2024-01-01,300
+5,Bruno,Norte,B,2024-01-03,100
+6,Bruno,Norte,A,2024-01-04,200
+7,Carla,Sul,A,2024-01-02,250
+8,Carla,Sul,B,2024-01-03,300
+9,Carla,Sul,A,2024-01-05,100
+10,Ana,Sul,B,2024-01-06,400
