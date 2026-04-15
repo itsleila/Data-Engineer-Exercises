@@ -41,14 +41,13 @@ def transform(df):
   logging.info("Starting data transformation.")
   df = normalize_column_names(df)
   
-  df = validate_dataframe(df)
-  
   df = convert_columns(
     df,
     numeric_cols=['price_per_unit', 'total_spent'],
     int_cols=['quantity'],
     datetime_cols=['transaction_date']
   )
+  df = validate_dataframe(df)
   
   df = replace_values(df, replacements)
   
